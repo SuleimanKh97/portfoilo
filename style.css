@@ -68,8 +68,14 @@ section {
     min-height: 100vh;
     width: 100%;
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
     align-items: center;
     background-image: url();
+}
+
+.home img {
+    width: 90vh;
 }
 
 .aboutme h2 {
@@ -415,5 +421,13 @@ textarea {
         width: 20em;
         min-width: 20em;
 
+    }
+
+    .home {
+        flex-direction: column-reverse;
+    }
+
+    .home img {
+        width: 48vh;
     }
 }
