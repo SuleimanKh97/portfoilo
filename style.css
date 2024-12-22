@@ -139,6 +139,11 @@ section {
     font-weight: 700;
     letter-spacing: 2px;
     margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+.title:hover {
+    color: #EEEEEE;
 }
 
 .content {
@@ -160,6 +165,10 @@ section {
 .projectcard:hover {
     box-shadow: 0px 5px 25px #eeeeee31;
     transform: scale(1.2);
+}
+
+.projectcard:hover .projectinfo p {
+    color: #EEEEEE;
 }
 
 .projectimg img {
@@ -219,6 +228,10 @@ section {
 .skillcard:hover {
     box-shadow: 0px 5px 25px #eeeeee31;
     transform: scale(1.2);
+}
+
+.skillcard:hover .projectinfo .iconlink {
+    color: #EEEEEE;
 }
 
 .skillicon .icon {
@@ -317,6 +330,90 @@ textarea {
     z-index: 999;
 }
 
-.map ifram {
-    width: ;
+.extracards {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #31363F;
+
+}
+
+.extracard {
+    min-height: 14em;
+    border: 1px solid #31363F;
+    width: 23em;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.8s ease;
+}
+
+.extracard:hover {
+    box-shadow: 0px 5px 25px #eeeeee31;
+    transform: scale(1.2);
+}
+
+.extracard:hover .projectinfo p {
+    color: #EEEEEE;
+}
+
+@media screen and (max-width:426px) {
+
+    section {
+        padding: 100px 20px;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        width: 13em;
+
+    }
+
+    textarea {
+        padding: 1em;
+        border: 1px solid #76ABAE;
+        width: 16em;
+        height: 20vh;
+        border-radius: 10px;
+    }
+
+    .headerp {
+        background-color: #222831;
+        width: 100%;
+        position: fixed;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+
+    .footer1 {
+
+        flex-direction: column;
+
+    }
+
+
+    .skillcard {
+
+        width: 13em;
+        margin-bottom: 1em;
+
+    }
+
+
+
+    .projectcard {
+        width: 20em;
+    }
+
+    .extracard {
+        width: 20em;
+    }
+
+    fieldset {
+        width: 20em;
+        min-width: 20em;
+
+    }
 }

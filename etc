@@ -1,0 +1,35 @@
+<header class="headerp">
+        <div class="logo"><a href="#home">Suleiman</a></div>
+        <div class="nav">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contactme">ContactMe</a>
+            <a href="#Extras">Extras</a>
+        </div>
+
+    </header>
+
+
+
+    <div class="nav">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="#skills">Skills</a>
+                        <a class="nav-link" href="#contactme">ContactMe</a>
+                        <a class="nav-link" href="#Extras">Extras</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
