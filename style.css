@@ -84,6 +84,12 @@ section {
     font-weight: 500;
 }
 
+.aboutme p {
+    color: #EEEEEE;
+    font-size: 1em;
+    font-weight: 200;
+}
+
 .aboutme h2 span {
     color: #76ABAE;
     font-size: 1.8em;
@@ -162,7 +168,7 @@ section {
 .projectcard {
     min-height: 14em;
     border: 1px solid #222831;
-    width: 23em;
+    width: 20em;
     border-radius: 20px;
     overflow: hidden;
     transition: 0.8s ease;
@@ -225,7 +231,7 @@ section {
 .skillcard {
     min-height: 14em;
     border: 1px solid #31363F;
-    width: 22em;
+    width: 16em;
     border-radius: 20px;
     /* overflow: hidden; */
     transition: 0.5s ease;
@@ -255,6 +261,31 @@ section {
 .iconlink {
     color: #76ABAE;
     text-align: center;
+}
+
+.coursescards {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #222831;
+
+}
+
+.coursescard {
+    min-height: 14em;
+    border: 1px solid #222831;
+    width: 22em;
+    border-radius: 20px;
+    /* overflow: hidden; */
+    transition: 0.5s ease;
+}
+
+.coursescard:hover {
+    box-shadow: 0px 5px 25px #eeeeee31;
+    transform: scale(1.2);
+}
+
+.coursescard:hover .projectinfo .iconlink {
+    color: #EEEEEE;
 }
 
 .contactme {
@@ -294,14 +325,14 @@ input[type="text"],
 input[type="email"] {
     padding: 1em;
     border: 1px solid #76ABAE;
-    width: 20em;
+    width: 24em;
     border-radius: 10px;
 }
 
 textarea {
     padding: 1em;
     border: 1px solid #76ABAE;
-    width: 30em;
+    width: 45em;
     height: 20vh;
     border-radius: 10px;
 }
@@ -346,7 +377,7 @@ textarea {
 .extracard {
     min-height: 14em;
     border: 1px solid #31363F;
-    width: 23em;
+    width: 18em;
     border-radius: 20px;
     overflow: hidden;
     transition: 0.8s ease;
@@ -360,6 +391,32 @@ textarea {
 .extracard:hover .projectinfo p {
     color: #EEEEEE;
 }
+
+.extraimg {
+    display: flex;
+    justify-content: center;
+}
+
+.extraimg1 {
+    display: flex;
+    justify-content: center;
+}
+
+.extraimg img {
+    width: 35%;
+
+}
+
+.extraimg1 img {
+    width: 50%;
+
+}
+
+.extraimg img {
+    border-radius: 180px;
+}
+
+
 
 @media screen and (max-width:426px) {
 
@@ -428,6 +485,6 @@ textarea {
     }
 
     .home img {
-        width: 48vh;
+        width: 45vh;
     }
 }
